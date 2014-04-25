@@ -1,0 +1,8 @@
+data sources
+http://ec.europa.eu/public_opinion/archives/ebs/ebs_243_en.pdf
+"Europeans and Their Languages"
+published February 2006 by the European Commission.
+
+also
+CIA World Fact Book.
+https://www.cia.gov/library/publications/the-world-factbook/
