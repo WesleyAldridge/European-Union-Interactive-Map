@@ -5,7 +5,7 @@ class Country_Manager {
   String obesityText;
   String germanText;
 
-
+  //Constructor //////////////////////////////////////////////////////////////////////////////////
   Country_Manager() {
     countryList = new Country[27];
     font = loadFont("ArialMT-16.vlw");

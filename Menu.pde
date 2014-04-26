@@ -29,8 +29,6 @@ class Menu {//1. Name
 
   //4. Methods
   void display() {
-    fill(190);
-    //rect(x, y, x+menuWidth, y+menuHeight);
     
     pushStyle();
     imageMode(CORNER);

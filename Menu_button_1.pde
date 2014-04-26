@@ -16,7 +16,7 @@ class MenuButton1 {
     fill(255);
     eSize = eSize_;
     ePadding = ePadding_;
-    buttonX = 17;                //POSITION BUTTON ON SCREN
+    buttonX = 17;                //POSITION BUTTON ON SCREEN
     buttonY = 248;
     isPressed = true;
     filled = loadImage("filled.png");
@@ -28,7 +28,7 @@ class MenuButton1 {
   void display() {
 
 
-    if (button2.isPressed == false && button3.isPressed == false && button4.isPressed == false) {        //if button 2 is TRUE
+    if (button2.isPressed == false && button3.isPressed == false && button4.isPressed == false) {
       pushStyle();
       rectMode(CORNER);
       fill(0, 51, 153);

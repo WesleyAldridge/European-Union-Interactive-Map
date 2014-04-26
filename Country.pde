@@ -6,13 +6,12 @@ class Country {
   PImage black;
   PImage hover;
   float imgSize;
-  //Integrator size;
 
   String nameOfCountry;
   int population;
   float obesity;
   float internetUsers;
-  float percentSpeakers; ///percentage of population that speaks German
+  float percentSpeakers;
 
 
   //Constructor //////////////////////////////////////////////////////////////////////////////////
@@ -26,10 +25,9 @@ class Country {
     img = img_;
     x=x_;
     y=y_;
-    
+
     imageMode(CENTER);
     imgSize = population/500000; // pop/500k
-    //size = new Integrator(population/500000);
     black = loadImage("blackbetter.png");
     hover = loadImage("hover.png");
   }
@@ -40,12 +38,9 @@ class Country {
     pushStyle();
     fill(0);
     image(black, x, y, 253*(imgSize/242), 253*(imgSize/242));
-    image(img, x, y, imgSize, imgSize); // image source, x location, y location, img width, img height
-    //collisionImg(x, y, imgSize);
+    image(img, x, y, imgSize, imgSize);
 
     popStyle();
   }
-
-  /////////////////////////////////////////////////////////////////////////////////
 }
 

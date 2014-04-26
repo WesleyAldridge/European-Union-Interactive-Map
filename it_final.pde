@@ -39,5 +39,4 @@ void draw() {
   countries.display();
   menu.display();
    page2.display();
-   println(mouseX + ", " + mouseY);
 }
