@@ -1,6 +1,6 @@
 # An interactive map of the European Union (and the UK)
 
-## Language: Java for Processing
+#### Language: Java for Processing
 
 A simple program which displays a map of the EU (plus the UK) with interactive data displays for population, percent internet users, obesity rates, and percentage of German speakers for each country.
 
