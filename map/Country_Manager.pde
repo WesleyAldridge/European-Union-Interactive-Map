@@ -114,4 +114,3 @@ class Country_Manager {
     popStyle();
   }
 }
-

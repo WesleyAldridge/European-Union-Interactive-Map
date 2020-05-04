@@ -22,7 +22,8 @@ class page2 {
       textAlign(CENTER);
       text("Designed by Wesley Aldridge", width/2, 100); //word, x ,y
       textFont(font16);
-      text("https://github.com/wesleytaldridge", width/2, 130);
+      
+      text("https://github.com/WesleyAldridge", width/2, 130);      
 
       textAlign(LEFT);
       text("Data retrieved from", width/2-200, 180);
@@ -41,6 +42,22 @@ class page2 {
       popStyle();
     }
   }
+
+
+/* Scrapped this because the link was clicking too many times per second, making 1000+ tabs open all at once.
+  void github_link() {
+    text("https://github.com/WesleyAldridge", width/2, 130);
+      
+      if (mouseX > 383 && mouseX < 615  && mouseY > 114 && mouseY < 131) {
+        if (mousePressed) {
+            link("https://github.com/WesleyAldridge"); 
+            
+        }
+      }
+    
+  }
+ */ 
+
 
 
   void collisionArrow() {
@@ -73,4 +90,3 @@ class page2 {
     }
   }
 }
-

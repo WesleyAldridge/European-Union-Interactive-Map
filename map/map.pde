@@ -13,7 +13,7 @@ MenuButton4 button4;
 
 void setup() {
   size(1000, 690);
-  background(200);
+  background(200); // a light gray color
   smooth(2);
   noStroke();
 

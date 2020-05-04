@@ -43,4 +43,3 @@ class Country {
     popStyle();
   }
 }
-

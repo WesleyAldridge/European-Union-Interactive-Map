@@ -1,4 +1,4 @@
-class MenuButton4 {
+class MenuButton3 {
 
   // Attributes
   float eSize;
@@ -9,15 +9,14 @@ class MenuButton4 {
   PImage filled;
   PImage unfilled;
 
-
   // Constructor
-  MenuButton4(float eSize_, float ePadding_) {
+  MenuButton3(float eSize_, float ePadding_) {
     ellipseMode(CENTER);
     fill(255);
     eSize = eSize_;
     ePadding = ePadding_;
-    buttonX = 17;              //POSITION BUTTON 4 ON SCREEN
-    buttonY = 248+75;
+    buttonX = 17;              //POSITION BUTTON 3 ON SCREEN
+    buttonY = 248+50;
     isPressed = false;
     filled = loadImage("filled.png");
     unfilled = loadImage("unfilled.png");
@@ -28,46 +27,46 @@ class MenuButton4 {
   void display() {
 
 
-    if (button1.isPressed == false && button2.isPressed == false && button3.isPressed == false) {            /// if button one+two are FALSE, fill button 4
+    if (button1.isPressed == false && button2.isPressed == false && button4.isPressed == false) {            /// if button one+two are FALSE, fill button 3
       pushStyle();
       rectMode(CORNER);
-      fill(0, 154, 65);
-      rect(0, 310, 175, 26);
+      fill(0, 154, 130);
+      rect(0, 285, 175, 25);
       popStyle();
       image(filled, buttonX, buttonY, 20, 20);
       fill(255);
-      text("German Speakers", menu.textPositionFour, 330);
+      text("Obesity", menu.textPositionThree, 305);
     }
     else { //if button 1 is TRUE, don't fill button 2
       image(unfilled, buttonX, buttonY, 20, 20);
     }
 
-    if ( ((mouseX < 175 && mouseX > 0) && (mouseY >= 310 && mouseY <= 336)) && !isPressed) {
+
+    if ( ((mouseX < 175 && mouseX > 0) && (mouseY >= 285 && mouseY <= 309)) && !isPressed) {
       pushStyle();
       rectMode(CORNER);
-      fill(0, 154, 65, 40);
-      rect(0, 310, 175, 26);
+      fill(0, 154, 130, 40);
+      rect(0, 285, 175, 25);
       popStyle();
       image(unfilled, buttonX, buttonY, 20, 20);
 
       if (mousePressed) {
         //if you press button 2 and it is currently FALSE
-        isPressed = true; //make button 2 true
+        isPressed = true; //make button 3 true
         button1.isPressed = false; //make button 1 false
         button2.isPressed = false; //make button 2 false
-        button3.isPressed = false; //make button 3 false
+        button4.isPressed = false; //make button 4 false
         button_func();
       }
     }
   }
 
   void button_func() {
-    if (button4.isPressed == true) {                                 //IF BUTTON 4 IS PRESSED
+    if (button3.isPressed == true) {                                 //IF BUTTON 3 IS PRESSED
       for (int i=0; i < countryList.length; i++) {
-        countryList[i].imgSize = countryList[i].percentSpeakers;
+        countryList[i].imgSize = countryList[i].obesity*2.5;
       }
       countries.controlledSize();
     }
   }
 }
-
