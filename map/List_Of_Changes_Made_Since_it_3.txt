@@ -1,9 +1,0 @@
-List of changes made since Iteration 3:
-
-1. Added a corner/tab image in the top-right corner for visual interest. Previously the area was rampant with negative space. Now it has a very slight visual interest. If you click on the tab, it goes to a README page of sorts.
-
-2. Removed the data that was displayed in the bottom left corner of the screen when you hovered over the countries.
- 
-3. Now that data [from #2] is displayed as pop-up bubbles that appear when you hover over each country. The bubbles change in width based on the length of the data being displayed. Also, Cyprus's bubble is no longer displayed off-screen.
-
-4. Everything was, of course, added to GitHub.
