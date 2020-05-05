@@ -10,4 +10,4 @@ To run the program:
 3. Press Run
 
 
-[](./example_screenshot/example.png)
+![](/example_screenshot/example.png "Example Image")
