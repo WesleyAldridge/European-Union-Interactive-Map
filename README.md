@@ -8,3 +8,6 @@ To run the program:
 1. Install Processing  https://processing.org/
 2. Open map.pde
 3. Press Run
+
+
+[](example.png)
