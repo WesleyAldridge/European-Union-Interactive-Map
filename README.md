@@ -13,7 +13,7 @@ A data visualization of the 27 countries of the European Union in 2006 which dis
 - CIA World Fact Book: 
 https://www.cia.gov/library/publications/the-world-factbook/
 
-- Europeans and Their Languages
+- Europeans and Their Languages:
 published February 2006 by the European Commission
 http://ec.europa.eu/public_opinion/archives/ebs/ebs_243_en.pdf
 
