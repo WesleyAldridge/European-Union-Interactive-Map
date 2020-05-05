@@ -28,3 +28,4 @@ http://ec.europa.eu/public_opinion/archives/ebs/ebs_243_en.pdf
 ### Example Screenshot:
 
 ![](/example_screenshot/example.png "Example Image")
+![](/example_screenshot/obesity.png "Example Image")
